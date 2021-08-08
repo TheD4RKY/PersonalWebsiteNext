@@ -1,0 +1,81 @@
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+    z-index: -2500;
+}
+
+.container2{
+  width: 50%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #2F2F2F;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #FF1C1C;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 7s 0s;
+  -webkit-animation: load 7s 0s;
+  -moz-animation: load 7s 0s;
+  -o-animation: load 7s 0s;
+}
+
+.bar.front::before{
+  background-color: #008406;
+}
+.bar.back::before{
+  background-color: #ffcc33;
+}
+
+.bar.learning::before{
+  width: calc(9% - 10px);
+}
+.bar.learning2::before{
+  width: calc(22% - 10px);
+}
+.bar.basic::before{
+  width: calc(35% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(50% - 10px);
+}
+.bar.advanced::before{
+  width: calc(85% - 10px);
+}
+.bar.expert::before{
+  width: calc(95% - 10px);
+}

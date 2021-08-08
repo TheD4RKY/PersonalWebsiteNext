@@ -1,0 +1,31 @@
+html,body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+#bg-image {
+    position: fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #bg-image {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #bg-image {
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #bg-image {
+       width: auto;
+        height: 100%;
+    }
+    body {
+        background: url("poster.jpg");
+        background-size: cover;
+    }
+}

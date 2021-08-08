@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dennis Kalužík</title>
+<link href="css/Contact_Desktop.css" rel="stylesheet" type="text/css">
+<link href="css/Contact_MinDesktop.css" rel="stylesheet" type="text/css">
+<link href="css/Contact_Mobile.css" rel="stylesheet" type="text/css">
+<link href="css/Contact_Tablet.css" rel="stylesheet" type="text/css">
+<link href="css/loader.css" rel="stylesheet" type="text/css">
+<link href="css/transletter_BP.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./aos/dist/aos.css" />
+<script src="./aos/dist/aos.js"></script>
+<script type="text/javascript" src="./js/sticky.js"></script>
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="https://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<script src="./js/jquerry.js"></script>
+<script src="./js/loader.js"></script>
+<script src="./js/google_maps.js"></script>
+</head>
+<body>
+ <div class="container mobile-container"> 
+ <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+
+  <header id="navbar"> 
+<a href="./index.html"><img src="images/logo.png" class="padding" alt="10" height="50" width="50"></a>
+<a href="javascript:void(0);" onclick="dropdown()"><a href="javascript:void(0);" onClick="dropdown()">
+<img src="images/menu_icon.png" class="padding2" alt="10" height="50" width="50"></a></a>
+<nav class="colorli">
+      <ul class="colorli" id="myLinks">
+        <li ><a href="./index.html">HOME</a></li>
+        <li ><a href="./about_me.html">ABOUT</a></li>
+        <li ><a href="./contact_me.html">CONTACT</a></li>
+		<li><a href="i dont have portfolio yet">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </header>
+	  <div class="hero-image">
+		  <section class="hero">
+    <h2 class="trans">Get in touch </h2>
+			  <p class="tagline">Fill the form or contact me other way</p>
+	    </section>
+  </div>
+
+
+	<div class="containerform">
+	<article class="containerformcol">
+	<form action="/action_page.php">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"></label>
+    &nbsp; &nbsp; &nbsp;
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="ename"></label>
+<input type="text" id="ename" name="email" placeholder="Your email..">
+    <label for="country"></label>
+    <select id="country" name="country">
+    <option value="europe">Europe</option>
+    <option value="africa">Africa</option>
+    <option value="asia">Asia</option>
+	<option value="america">America</option>
+	<option value="australia">Australia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+		</form></article>
+		<article class="containerformcol">
+		<div id="map"></div>
+	</article>
+  </div>
+
+
+  <!-- Cringe Section -->
+	<div class="infoboxes">
+    <div class="littleinfobox" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+      <h2>Mobile and Discord</h2>
+      <h3>+420 732 859 585<br>-TheRealDarky-#7232</h3>
+    </div>
+    <div class="littleinfobox" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500"
+     data-aos-offset="0">
+		<h2>Adress</h2>
+    <h3 class="contactext">Dennis Kaluzik<br>Palackého 1048<br>Dubnany 696 03<br>Czech Republic</h3>
+    </div>
+    <div class="littleinfobox" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="700"
+     data-aos-offset="0">
+      <h2>Email</h2>
+      <h3>growlbox123g@gmail.com<br>kaluzikd@sosklobouky.cz</h3>
+    </div>
+    <div class="littleinfobox" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="900"
+     data-aos-offset="0">
+      <h2>Other</h2>
+      <a href="https://www.facebook.com/dennis.kaluzik" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/OutrunSamurai" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/_darkythedarkin_/" class="fa fa-instagram"></a>
+		<a href="https://www.linkedin.com/in/dennis-kalu%C5%BE%C3%ADk-385340217/" class="fa fa-linkedin"></a>
+    </div>
+	</div>
+  <!-- Mid page banner Section -->
+	<div class="video-container" data-aos="fade-right" data-aos-duration="20000">
+  <video autoplay muted loop>
+    <source src="./videos/contact_footer.mp4" type="video/mp4" />
+  </video>
+  <div class="caption">
+    <h2 class="parallax">Thank you</h2>
+    <p class="parallax_description">For choosing my services</p>
+  </div>
+</div>
+  <!-- Info Section -->
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2021- <strong>Dennis Kaluzik</strong></div>
+</div>
+<!-- Scripts -->
+<script>
+window.onscroll = function() {stickyy()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function stickyy() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	<script>
+function dropdown() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPQGO_n64Kbt-9UZU6zOq9ZPp2IU9B-Xc&callback=initMap" async defer></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
