@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CACJ;EACC,MAAM,EAAE,CAAC;EACR,WAAW,EAAE,kBAAkB;CAChC",
+    "sources": [
+        "globalnav.scss"
+    ],
+    "names": [],
+    "file": "globalnav.css"
+}

@@ -1,0 +1,112 @@
+@mixin vertical-align($position) {
+  position:$position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin all-transition($time)
+{
+	transition: all $time;
+	-webkit-transition: all $time;
+}
+
+.menu {
+
+	font-weight: 100;
+	background: black;
+	width: 200px;
+	height: 100%;
+	padding-left: 50px;
+	position: fixed;
+	z-index: 100;
+	-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
+	box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
+	right: -130px;
+	@include all-transition(0.3s);
+	color: #222;
+
+	&:hover, &:focus
+	{
+    background: #efefef;
+		transform: translate3d(-130px, 0, 0);
+		animation-timing-function: 1s ease-in;
+	}
+	.title
+	{
+		top:50%;
+    color: #efefef;
+		@include vertical-align(absolute);
+		transform: rotate(270deg);
+		left: 10px;
+		font-weight: 600;
+		font-size: 20px;
+    
+	}
+	.nav
+	{
+		@include vertical-align(absolute);
+    font-weight: 100;
+
+		li
+		{
+				padding-bottom: 30px;
+        padding-left: 30px;
+        color: black;
+				list-style-type: none;
+
+				a
+				{
+					display: block;
+					text-decoration: none;
+					color: inherit;
+					@include all-transition(0.3s);
+
+					&:hover
+					{
+						background-image: linear-gradient(to left, skyblue 0%, hotpink 100%);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-moz-animation:colorchange 6s ease infinite;
+	-webkit-animation:colorchange 6s ease infinite;
+	animation:colorchange 6s ease infinite;
+					}
+				}
+		}
+
+
+	}
+
+
+}
+
+@-webkit-keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@-moz-keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+.intro
+{
+	position: absolute;
+	top:30%;
+	margin: 0 auto;left:0;right:0;
+	font-size: 45px;
+	text-align: center;
+   font-style: italic;
+
+}
