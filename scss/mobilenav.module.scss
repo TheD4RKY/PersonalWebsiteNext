@@ -17,23 +17,23 @@ $breakpoint-mobile: 323px;
 }
 
 .menu {
+
 	font-weight: 100;
-	background: black;
-	width: 200px;
-	height: 100%;
-	padding-left: 50px;
+	background: white;
+	width: 100%;
+	height: 500px;
 	position: fixed;
+    bottom: 400px;
 	z-index: 100;
 	-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
 	box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
-	right: -130px;
 	@include all-transition(0.3s);
 	color: #222;
 
 	&:hover, &:focus
 	{
     background: #efefef;
-		transform: translate3d(-130px, 0, 0);
+		transform: translate3d(0, 130px, 0);
 		animation-timing-function: 1s ease-in;
 	}
 	.title
@@ -51,13 +51,15 @@ $breakpoint-mobile: 323px;
 	{
 		@include vertical-align(absolute);
     font-weight: 100;
-
+    width: 100%;
 		li
 		{
-				padding-bottom: 30px;
-        padding-left: 30px;
+            width: 100%;
+				padding-bottom: 20px;
+        
         color: black;
 				list-style-type: none;
+                text-align: center;
 
 				a
 				{
@@ -65,10 +67,7 @@ $breakpoint-mobile: 323px;
 					text-decoration: none;
 					color: inherit;
 					@include all-transition(0.3s);
-
-					&:hover
-					{
-						background-image: linear-gradient(to left, skyblue 0%, hotpink 100%);
+                    background-image: linear-gradient(to left, skyblue 0%, hotpink 50%, black 100%);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
     -moz-background-clip: text;
@@ -77,7 +76,7 @@ $breakpoint-mobile: 323px;
 	-moz-animation:colorchange 6s ease infinite;
 	-webkit-animation:colorchange 6s ease infinite;
 	animation:colorchange 6s ease infinite;
-					}
+					
 				}
 		}
 
@@ -114,12 +113,5 @@ $breakpoint-mobile: 323px;
 
 }
 
-@media (max-width : $breakpoint-tablet ) {
-	.menu{
-		display: none;
-
-	}
-
 
 	
-}

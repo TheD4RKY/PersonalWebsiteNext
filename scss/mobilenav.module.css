@@ -1,14 +1,13 @@
 .menu {
   font-weight: 100;
-  background: black;
-  width: 200px;
-  height: 100%;
-  padding-left: 50px;
+  background: white;
+  width: 100%;
+  height: 500px;
   position: fixed;
+  bottom: 400px;
   z-index: 100;
   -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
   box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  right: -130px;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   color: #222;
@@ -16,8 +15,8 @@
 
 .menu:hover, .menu:focus {
   background: #efefef;
-  -webkit-transform: translate3d(-130px, 0, 0);
-          transform: translate3d(-130px, 0, 0);
+  -webkit-transform: translate3d(0, 130px, 0);
+          transform: translate3d(0, 130px, 0);
   -webkit-animation-timing-function: 1s ease-in;
           animation-timing-function: 1s ease-in;
 }
@@ -42,13 +41,15 @@
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font-weight: 100;
+  width: 100%;
 }
 
 .menu .nav li {
-  padding-bottom: 30px;
-  padding-left: 30px;
+  width: 100%;
+  padding-bottom: 20px;
   color: black;
   list-style-type: none;
+  text-align: center;
 }
 
 .menu .nav li a {
@@ -57,11 +58,8 @@
   color: inherit;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
-}
-
-.menu .nav li a:hover {
-  background-image: -webkit-gradient(linear, right top, left top, from(skyblue), to(hotpink));
-  background-image: linear-gradient(to left, skyblue 0%, hotpink 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(skyblue), color-stop(50%, hotpink), to(black));
+  background-image: linear-gradient(to left, skyblue 0%, hotpink 50%, black 100%);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -104,10 +102,4 @@
   text-align: center;
   font-style: italic;
 }
-
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-}
-/*# sourceMappingURL=navbar.module.css.map */
+/*# sourceMappingURL=mobilenav.module.css.map */
