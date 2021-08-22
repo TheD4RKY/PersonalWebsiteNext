@@ -6,10 +6,10 @@ export default function Skillbar(){
     <>
 <div className={Style.container2}>
     <h1 className={Style.textskillmobile}>My skill level</h1>
-              <div className={Style["bar"] + " " + Style["learning2"]} data-skill="TYPESCRIPT"></div>
+              <div className={Style["bar"] + " " + Style["learning2"]} data-skill="TS"></div>
               <div className={Style["bar"] + " " + Style["back"] + " " + Style["basic"]} data-skill="C++"></div>
               <div className={Style["bar"] + " " + Style["back"] + " " + Style["intermediate"]} data-skill="React"></div>
-              <div className={Style["bar"] + " " + Style["back"] + " " + Style["intermediate2"]} data-skill="NEXTjs"></div>
+              <div className={Style["bar"] + " " + Style["back"] + " " + Style["intermediate2"]} data-skill="NEXT"></div>
               <div className={Style["bar"] + " " + Style["back"] + " " + Style["intermediate3"]} data-skill="JS"></div>
               <div className={Style["bar"] + " " + Style["front"] + " " + Style["advanced"]} data-skill="SASS"></div>
               <div className={Style["bar"] + " " + Style["front"] + " " + Style["advanced2"]} data-skill="CSS3"></div>
