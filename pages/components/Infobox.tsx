@@ -6,7 +6,11 @@ return(
     <>
     <div className={Style.infoboxes}>
         <div className={Style.littleinfobox}>
-            <h1 className={Style.stats}>IM WORKING WITH</h1>
+                <h1 className={Style.stats}>
+                    <div>
+                    {"I'm working with"}
+</div>
+</h1>
             <h4>ADOBE</h4>
             <p>Dreamweaver and Photoshop</p>
         </div>

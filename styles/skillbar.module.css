@@ -35,9 +35,9 @@
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #FF1C1C;
+  background-image: linear-gradient(to left, #7aff75 0%, hotpink 100%);
   display: inline-block;
-  padding: 5px 0 5px 10px;
+  padding: 5px 0 5px 15px;
   border-radius: inherit;
   animation: load 7s 0s;
   -webkit-animation: load 7s 0s;
@@ -46,10 +46,10 @@
 }
 
 .bar.front::before{
-  background-color: #008406;
+  background-image: linear-gradient(to left, skyblue 0%, hotpink 100%);
 }
 .bar.back::before{
-  background-color: #ffcc33;
+  background-image: linear-gradient(to left, #f6ff75 0%, hotpink 100%);
 }
 
 .bar.learning::before{
@@ -64,8 +64,17 @@
 .bar.intermediate::before{
   width: calc(50% - 10px);
 }
+.bar.intermediate2::before{
+  width: calc(60% - 10px);
+}
+.bar.intermediate3::before{
+  width: calc(63% - 10px);
+}
 .bar.advanced::before{
   width: calc(85% - 10px);
+}
+.bar.advanced2::before{
+  width: calc(90% - 10px);
 }
 .bar.expert::before{
   width: calc(95% - 10px);
@@ -74,4 +83,20 @@
 .textskillmobile{
 	font-size: 20px;		
 	}
+}
+
+@-webkit-keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@-moz-keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@keyframes colorchange{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
 }
