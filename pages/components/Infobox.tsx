@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "/styles/Infobox.module.css";
+import Style from "/scss/infobox.module.css";
 
 export default function Infobox(){
 return(

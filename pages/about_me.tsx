@@ -9,7 +9,8 @@ export default function Nav({ }) {
     return (
         <>
             <Head>
-                <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             </Head>
             <Navbar />
             <Heroheader />
