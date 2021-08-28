@@ -42,9 +42,13 @@ $breakpoint-mobile: 323px;
     color: #efefef;
 		@include vertical-align(absolute);
 		transform: rotate(270deg);
-		left: 10px;
+		left: 5%;
 		font-weight: 600;
-		font-size: 20px;
+		text-shadow: 0px 2px 3px rgb(255, 212, 250);
+		@include all-transition(0.3s);
+		
+		
+		
     
 	}
 	.nav
