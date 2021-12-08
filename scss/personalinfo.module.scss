@@ -1,0 +1,39 @@
+.footer{
+    background-color: #FFFFFF;
+	padding-bottom: 35px;
+    display: inline-block;
+}
+.footer_column{
+    width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+
+.texth3{
+    font-size: 1.2rem;
+    color: #B3B3B3;
+	text-align: center;
+    padding-bottom: 1.3rem;
+}
+.textp{
+    color: #717070;
+	background-color: #FFFFFF;
+    padding-left: 150px;
+	padding-right: 150px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+    margin-top: 1.5rem;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 330px;
+	max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}

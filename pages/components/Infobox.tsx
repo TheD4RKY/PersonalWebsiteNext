@@ -11,23 +11,23 @@ return(
                     {"I'm working with"}
 </div>
 </h1>
-            <h4>ADOBE</h4>
-            <p>Dreamweaver and Photoshop</p>
+            <h4>Reliable tools</h4>
+            <p>VSCode and Photoshop</p>
         </div>
         <div className={Style.littleinfobox}>
             <h1 className={Style.stats}>IM FULFILLING</h1>
-            <h4>EXPECTATIONS</h4>
+            <h4>Expectations</h4>
             <p>Either mine or customers</p>
         </div>
         <div className={Style.littleinfobox}>
-            <h1 className={Style.stats}>IM SPEAKING IN</h1>
-            <h4>PROGRAMMING LANGUAGES</h4>
-            <p>HTML, CSS, JS, JQUERRY etc.</p>
+            <h1 className={Style.stats}>IM SPEAKING BY</h1>
+            <h4>Programing languages</h4>
+            <p>Javascript, C++, PHP etc..</p>
         </div>
         <div className={Style.littleinfobox}>
-            <h1 className={Style.stats}>IM THINKING VERY</h1>
-            <h4>COMPLEX</h4>
-            <p>With functionality and systems</p>
+            <h1 className={Style.stats}>Im trying to</h1>
+            <h4>Think</h4>
+            <p>on a technical level</p>
         </div>
     </div>
 

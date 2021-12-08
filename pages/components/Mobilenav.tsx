@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/dist/next-server/lib/head";
+import Head from "next/dist/shared/lib/head";
 import styles from "/scss/mobilenav.module.css";
 import {IoIosList} from 'react-icons/io'
 
