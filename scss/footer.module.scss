@@ -34,10 +34,16 @@
 	border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
 	border-image-slice: 1;
 	color: #FFFFFF;
-	transition: all 0.3s linear;
+    transition: all 1s linear;
 }
 .button:hover {
 	background-color: #FEFEFE;
-	color: #C4C4C4;
+	color: black;
 	cursor: pointer;
+	animation: colorchange 6s ease;
 }
+
+/*@keyframes colorchange {
+  from {background-color: #1a1a1a;}
+  to {background-color: white;}
+}*/

@@ -8,7 +8,6 @@ return(
             <p className={Style.light2}>FOR MORE INFO &amp; REQUESTS</p>
             <a href="./Kontaktpage.html" id="ahref" ><div className={Style.button} data-aos="zoom-out">CONTACT ME</div></a>
         </section>
-
 </>
 )
 

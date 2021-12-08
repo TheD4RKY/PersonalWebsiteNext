@@ -13,6 +13,7 @@ import Midbannersection from './components/Midbannersection';
 import Personalinfo from './components/Personalinfo';
 import Timeline from './components/Timeline';
 import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 export default function Nav({ }) {
     useEffect(() => {
         AOS.init();
@@ -34,6 +35,7 @@ export default function Nav({ }) {
             <Personalinfo />
             <Timeline />
             <Footer />
+            <Copyright />
 </>
         )
 }
