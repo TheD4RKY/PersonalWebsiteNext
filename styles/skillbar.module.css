@@ -26,11 +26,11 @@
 .bar{
   background-color: #2F2F2F;
   padding: 2px;
-  border-radius: 15px;
+  font-size: 20px;
+  border-radius: 1px;
   margin-bottom: 5px;
-  font-size: 14px;
   color: #FFF;
-  font-weight: bold;
+  font-weight: 600;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 .bar::before{
@@ -99,4 +99,13 @@
 0%{background-position:0% 50%}
 50%{background-position:100% 50%}
 100%{background-position:0% 50%}
+}
+
+.textskillmobile{
+ text-align: center;
+ margin-top: 10px;
+ padding-bottom: 10px;
+ font-weight: 600;
+ font-size: 1.5rem;
+ animation: ease-in-out 6s textcol;
 }

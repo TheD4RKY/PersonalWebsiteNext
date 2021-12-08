@@ -6,12 +6,14 @@
 .infoboxes {
   clear: both;
   display: inline-block;
-  width: 100%;
+  width: 90%;
   background-color: #FFFFFF;
   padding-bottom: 35px;
   padding-top: 30px;
   margin-top: -5px;
   margin-bottom: 0px;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .infoboxestime {
@@ -25,9 +27,10 @@
 }
 
 .littleinfobox {
-  width: 25%;
+  width: 19%;
   text-align: center;
   float: left;
+  margin-left: 5%;
   margin-top: 35px;
 }
 
