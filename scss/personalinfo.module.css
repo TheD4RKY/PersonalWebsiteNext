@@ -39,5 +39,7 @@
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/about_me.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/about_me.jpeg");
 }
 /*# sourceMappingURL=personalinfo.module.css.map */
