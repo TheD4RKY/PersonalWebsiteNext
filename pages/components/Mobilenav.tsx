@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "/scss/mobilenav.module.css";
-import {IoIosList} from 'react-icons/io'
+import {IoIosList} from 'react-icons/io';
 
 export default function Mobilenav(){
 
