@@ -1,11 +1,11 @@
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('http://use.edgefonts.net/source-sans-pro:n2:default.js');
+@import url('http://use.edgefonts.net/source-sans-pro:n2:default.js');*/
 body {
   margin: 0;
-  font-family: 'Muli', sans-serif;
+ /* font-family: 'Muli', sans-serif;*/
 }
 
 
