@@ -26,12 +26,12 @@ export default function Nav({ }) {
             <Heroheader />
             <Skillbar />
             <Infobox />
-          {/*  <Middlesection />
+          <Middlesection />
             <Midbannersection />
             <Personalinfo />
             <Timeline />
             <Footer />
-            <Copyright />  */}
+            <Copyright />
 </>
         )
 }
