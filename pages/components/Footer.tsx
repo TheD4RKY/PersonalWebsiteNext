@@ -6,7 +6,7 @@ return(
 <>
         <section className={Style.footer_banner} id="contact">
             <p className={Style.light2}>FOR MORE INFO &amp; REQUESTS</p>
-            <Link href="/contact_me" id="ahref" ><div className={Style.button} data-aos="zoom-out">CONTACT ME</div></Link>
+            <Link href="/contact_me"><div className={Style.button} data-aos="zoom-out">CONTACT ME</div></Link>
         </section>
 </>
 )
