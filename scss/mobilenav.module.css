@@ -11,6 +11,7 @@
     color: white;
     z-index: 101;
     width: 100%;
+    opacity: 0.95;
   }
   .menu {
     font-weight: 100;
