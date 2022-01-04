@@ -13,7 +13,7 @@ return(
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2016</h2>
                 <div className={Style.timeline__item} data-aos="fade-left">
                     <h3 className={Style.timeline__title}>Modding</h3>
-                    <p className={Style.timeline__blurb}>Tweaking mods for my minecraft in JAVA</p>
+                    <p className={Style.timeline__blurb}>Tweaking mods for my local minecraft server in JAVA</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2018</h2>
                 <div className={Style.timeline__item} data-aos="fade-right">
@@ -22,7 +22,7 @@ return(
                 </div>
                 <div className={Style.timeline__item} data-aos="fade-left">
                     <h3 className={Style.timeline__title}>Created first little projects</h3>
-                    <p className={Style.timeline__blurb}>Simple Discord bot in Python, little arduino projects in C++, introduced myself to front-end / back-end and linux</p>
+                    <p className={Style.timeline__blurb}>Simple Discord bot (disaster), little arduino projects in C++, introduced myself to front-end / back-end and linux</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2019</h2>
                 <div className={Style.timeline__item} data-aos="fade-right">
@@ -31,10 +31,20 @@ return(
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2021</h2>
                 <div className={Style.timeline__item} data-aos="fade-left">
-                    <h3 className={Style.timeline__title}>Became freelancer</h3>
+                    <h3 className={Style.timeline__title}>Started learning React/Next</h3>
+                </div>
+                    <div className={Style.timeline__item} data-aos="fade-left">
+                    <h3 className={Style.timeline__title}>Became freelancing</h3>
                 </div>
                 <div className={Style.timeline__item} data-aos="fade-left">
                     <h3 className={Style.timeline__title}>Building webapp for my school</h3>
+                </div>
+                    <div className={Style.timeline__item} data-aos="fade-left">
+                    <h3 className={Style.timeline__title}>Building this personal site</h3>
+                </div>
+                <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2022</h2>
+                    <div className={Style.timeline__item} data-aos="fade-left">
+                    <h3 className={Style.timeline__title}>Learning my ass off</h3>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>NOW</h2>
             </div>
