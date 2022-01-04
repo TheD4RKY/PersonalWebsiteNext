@@ -42,6 +42,7 @@ color: white;
  @media screen and (min-width: 700px) {
 	 .timeline {
 		 padding: 2rem;
+		 
 	}
 	 .timeline:before {
 		 left: calc(50% - 1px);
@@ -55,7 +56,7 @@ color: white;
 	 border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
 	 border-image-slice: 1;
 	 position: relative;
-	 margin: 1rem 3rem 1rem 1rem;
+	 margin: 1rem 3rem 1rem 3rem;
 	 clear: both;
 }
  .timeline__item:after, .timeline__item:before {
@@ -72,12 +73,12 @@ color: white;
 }
  @media screen and (min-width: 700px) {
 	 .timeline__item {
-		 width: 44%;
-		 margin: 1rem;
+		 width: 40%;
+		 
 	}
 	 .timeline__item:nth-of-type(2n) {
 		 float: right;
-		 margin: 1rem;
+		 
 		 border-image: linear-gradient(to right, hotpink 0%, skyblue 100%);
 		 border-image-slice: 1;
 	}
@@ -125,4 +126,14 @@ color: white;
 	 line-height: 1.5;
 	 font-size: 1rem;
 	 margin: 0.5rem 0 0;
+}
+
+@media screen and (max-width: 700px) {
+ .infoboxestime{
+	 width: 100%;
+ }
+}
+@media screen and (max-width: 1251px) {
+
+
 }

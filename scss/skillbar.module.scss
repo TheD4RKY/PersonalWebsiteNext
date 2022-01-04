@@ -1,3 +1,6 @@
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 323px;
+$breakpoint-mindesktop: 1251px;
 .container2{
   width: 50%;
   margin: 0 auto;
@@ -108,4 +111,20 @@
  font-weight: 600;
  font-size: 1.5rem;
  animation: ease-in-out 6s textcol;
+}
+
+@media ( max-width : $breakpoint-tablet){
+.container2{
+  width: 83%;
+  margin: 0 auto;
+}
+
+}
+
+@media ( max-width : $breakpoint-mindesktop){
+
+    .container2{
+  width: 73%;
+  margin: 0 auto;
+}
 }

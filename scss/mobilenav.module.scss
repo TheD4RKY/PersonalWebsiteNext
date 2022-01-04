@@ -1,5 +1,6 @@
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 323px;
+
 .menu { 
 	display: none;
  }
@@ -18,27 +19,26 @@ $breakpoint-mobile: 323px;
 	transition: all $time;
 	-webkit-transition: all $time;
 }
-
-.menu {
-	display: block;
-	font-weight: 100;
-	background: black;
-	width: 100%;
-	height: 500px;
+.butt{
 	position: fixed;
-    bottom: 860px;
+	text-align: center;
+	font-size: 3.2em;
+	background-color: black;
+	color: white;
+	z-index: 101;
+	width: 100%;
+}
+.menu {
+	font-weight: 100;
+	background-color: black;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
 	z-index: 100;
 	-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
 	box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
-	@include all-transition(0.3s);
-	color: #efefef;;
-
-	&:hover, &:focus
-	{
-    background: #efefef;
-		transform: translate3d(0, 80%, 0);
-		animation-timing-function: 1s ease-in;
-	}
+	color: #efefef;
 
 	.nav
 	{
@@ -46,6 +46,7 @@ $breakpoint-mobile: 323px;
     font-weight: 100;
     width: 100%;
 	height: 60%;
+	font-size: 2.5em;
 	
 		li
 		{
@@ -61,7 +62,6 @@ $breakpoint-mobile: 323px;
 				{
 					display: block;
 					text-decoration: none;
-					color: inherit;
 					@include all-transition(0.3s);
                     background-image: linear-gradient(to left, skyblue 0%, hotpink 50%, black 100%);
 	background-size: 400% 400%;
@@ -110,24 +110,26 @@ margin-left:auto;
 	position: absolute;
 	top:30%;
 	margin: 0 auto;left:0;right:0;
-	font-size: 45px;
+	font-size: 45em;
 	text-align: center;
    font-style: italic;
 
 }
-}
+
 
 	
+	
+}
 
 .title
 {
 	z-index: 101;	
-	bottom: 1px;
+	bottom: 46rem;
 	text-align: center;
 	left: 46.5%;
 	position: fixed;
 	color: white;
-	display:block;
-	
+	display: block;
+	font-size: 20rem;
 	
 }

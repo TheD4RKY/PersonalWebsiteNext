@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "/styles/skillbar.module.css";
+import Style from "/scss/skillbar.module.css";
 import Tletter from "/styles/transletter.module.css";
 export default function Skillbar(){
   return (  

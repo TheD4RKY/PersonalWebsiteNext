@@ -61,7 +61,7 @@
      border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
   border-image-slice: 1;
   position: relative;
-  margin: 1rem 3rem 1rem 1rem;
+  margin: 1rem 3rem 1rem 3rem;
   clear: both;
 }
 
@@ -82,12 +82,10 @@
 
 @media screen and (min-width: 700px) {
   .timeline__item {
-    width: 44%;
-    margin: 1rem;
+    width: 40%;
   }
   .timeline__item:nth-of-type(2n) {
     float: right;
-    margin: 1rem;
     -o-border-image: linear-gradient(to right, hotpink 0%, skyblue 100%);
        border-image: -webkit-gradient(linear, left top, right top, from(hotpink), to(skyblue));
        border-image: linear-gradient(to right, hotpink 0%, skyblue 100%);
@@ -144,5 +142,11 @@
   line-height: 1.5;
   font-size: 1rem;
   margin: 0.5rem 0 0;
+}
+
+@media screen and (max-width: 700px) {
+  .infoboxestime {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=timeline.module.css.map */

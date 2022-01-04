@@ -23,7 +23,7 @@
   background-color: #FFFFFF;
   padding-left: 150px;
   padding-right: 150px;
-  text-align: justify;
+  text-align: center;
   line-height: 25px;
   font-weight: lighter;
   margin-top: 1.5rem;
@@ -59,13 +59,15 @@
   .textp {
     padding-left: 0px;
     padding-right: 0px;
+    margin: 0px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 323px) {
   .textp {
     padding-left: 0px;
     padding-right: 0px;
+    margin: 0px;
   }
 }
 /*# sourceMappingURL=personalinfo.module.css.map */

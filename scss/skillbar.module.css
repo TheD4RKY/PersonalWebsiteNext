@@ -1,0 +1,141 @@
+.container2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+
+.bar {
+  background-color: #2F2F2F;
+  padding: 2px;
+  font-size: 20px;
+  border-radius: 1px;
+  margin-bottom: 5px;
+  color: #FFF;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bar::before {
+  content: attr(data-skill);
+  background-image: -webkit-gradient(linear, right top, left top, from(#7aff75), to(hotpink));
+  background-image: linear-gradient(to left, #7aff75 0%, hotpink 100%);
+  display: inline-block;
+  padding: 5px 0 5px 15px;
+  border-radius: inherit;
+  animation: load 7s 0s;
+  -webkit-animation: load 7s 0s;
+  -moz-animation: load 7s 0s;
+  -o-animation: load 7s 0s;
+}
+
+.bar.front::before {
+  background-image: -webkit-gradient(linear, right top, left top, from(skyblue), to(hotpink));
+  background-image: linear-gradient(to left, skyblue 0%, hotpink 100%);
+}
+
+.bar.back::before {
+  background-image: -webkit-gradient(linear, right top, left top, from(#f6ff75), to(hotpink));
+  background-image: linear-gradient(to left, #f6ff75 0%, hotpink 100%);
+}
+
+.bar.learning::before {
+  width: calc(9% - 10px);
+}
+
+.bar.learning2::before {
+  width: calc(22% - 10px);
+}
+
+.bar.basic::before {
+  width: calc(35% - 10px);
+}
+
+.bar.intermediate::before {
+  width: calc(50% - 10px);
+}
+
+.bar.intermediate2::before {
+  width: calc(60% - 10px);
+}
+
+.bar.intermediate3::before {
+  width: calc(63% - 10px);
+}
+
+.bar.advanced::before {
+  width: calc(85% - 10px);
+}
+
+.bar.advanced2::before {
+  width: calc(90% - 10px);
+}
+
+.bar.expert::before {
+  width: calc(95% - 10px);
+}
+
+@media (max-width: 323px) {
+  .textskillmobile {
+    font-size: 20px;
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.textskillmobile {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  -webkit-animation: ease-in-out 6s textcol;
+          animation: ease-in-out 6s textcol;
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    width: 83%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1251px) {
+  .container2 {
+    width: 73%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=skillbar.module.css.map */

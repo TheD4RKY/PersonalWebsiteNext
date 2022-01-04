@@ -19,9 +19,10 @@ export default function Nav({ }) {
         AOS.refresh();
     }, []);
     return (
-        <>
-            <Mobilenav />
+        <div style={{width:"100%"}}>
+            
             <Navsocial />
+            <Mobilenav />
             <Navbar />
             <Heroheader />
             <Skillbar />
@@ -32,6 +33,6 @@ export default function Nav({ }) {
             <Timeline />
             <Footer />
             <Copyright />
-</>
+</div>
         )
 }
