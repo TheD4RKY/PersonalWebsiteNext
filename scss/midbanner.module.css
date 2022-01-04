@@ -21,7 +21,7 @@
   text-align: center;
   color: #dc0000;
   padding: 10px;
-  margin-bottom: 13rem;
+  margin-bottom: 10rem;
 }
 
 .parallax {
@@ -45,5 +45,27 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 10%;
+  }
+  .parallax_description {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 50%;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
 }
 /*# sourceMappingURL=midbanner.module.css.map */

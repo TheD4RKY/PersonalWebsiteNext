@@ -1,3 +1,6 @@
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 323px;
+
 .footer{
     background-color: #FFFFFF;
 	padding-bottom: 35px;
@@ -37,4 +40,26 @@
     margin-right: auto;
     display: inline-block;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/about_me.jpeg");
+}
+
+@media (max-width : $breakpoint-tablet){
+ .footer{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.textp{
+padding-left: 0px;
+padding-right: 0px;
+
+}
+}
+@media (max-width : $breakpoint-tablet){
+.textp{
+padding-left: 0px;
+padding-right: 0px;
+
+}
+
+
 }
