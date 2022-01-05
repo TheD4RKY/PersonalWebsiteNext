@@ -1,5 +1,6 @@
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 323px;
+$breakpoint-mindesktop: 1251px;
 
 .footer{
     background-color: #FFFFFF;
@@ -64,5 +65,22 @@ padding-right: 0px;
 margin: 0px;
 }
 
+
+}
+
+@media (max-width : $breakpoint-mindesktop){
+.textp{
+padding-left: 100px;
+padding-right: 100px;
+margin: 0px;
+}
+
+
+.footer_column{
+    width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
 
 }

@@ -27,11 +27,11 @@ export default function Mobilenav(){
             <div className={active ? styles.menu : 'hidden' } >
                     
                     <ul className={styles.nav}>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about_me">About</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/contact_me">Contact</a></li>
                         <li style={{color: "white"}}><a href="#"><IoIosList /></a></li>   
                     </ul>
                    

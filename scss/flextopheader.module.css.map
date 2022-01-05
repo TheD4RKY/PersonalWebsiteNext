@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,IAAI;EACZ,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAEzB;;AACD,AAAA,QAAQ,CAAA;EACL,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAGzB;;AACD,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;EACZ,QAAQ,EAAE,KAAK;EACf,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,MAAM;EACpB,eAAe,EAAE,MAAM;CACzB",
+    "sources": [
+        "flextopheader.module.scss"
+    ],
+    "names": [],
+    "file": "flextopheader.module.css"
+}
