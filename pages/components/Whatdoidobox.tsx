@@ -8,10 +8,10 @@ return(
         <div className={Style.littleinfobox}>
                 <h1 className={Style.stats}>
                     <div>
-                    {"I'm working with"}
+                    {"SOFTWARE I USE"}
 </div>
 </h1>
-            <h4>Reliable tools</h4>
+            <h4>For coding and Photoediting</h4>
             <p>VSCode and Photoshop</p>
         </div>
         <div className={Style.littleinfobox}>
@@ -20,14 +20,14 @@ return(
             <p>Either mine or customers</p>
         </div>
         <div className={Style.littleinfobox}>
-            <h1 className={Style.stats}>IM SPEAKING BY</h1>
+            <h1 className={Style.stats}>MY SPECIALIZATION</h1>
             <h4>Programing languages</h4>
-            <p>Javascript, C++, PHP etc..</p>
+            <p>Javascript, Typescript, TailwindCSS etc..</p>
         </div>
         <div className={Style.littleinfobox}>
-            <h1 className={Style.stats}>Im trying to</h1>
-            <h4>Think</h4>
-            <p>on a technical level</p>
+            <h1 className={Style.stats}>{"IM TRYING TO"}</h1>
+            <h4>Constantly learn more</h4>
+            <p>And expand my potencial</p>
         </div>
     </div>
 
