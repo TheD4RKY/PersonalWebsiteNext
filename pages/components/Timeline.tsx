@@ -8,44 +8,54 @@ return(
             <div className={Style.timeline}>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2002</h2>
                 <div className={Style.timeline__item} data-aos="fade-right">
-                    <h3 className={Style.timeline__title}>The Legend Was Born</h3>
-                    <p className={Style.timeline__blurb}>With focus on IT</p>
+                    <h3 className={Style.timeline__title}>I was born here</h3>
+                   
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2016</h2>
                 <div className={Style.timeline__item} data-aos="fade-up">
-                    <h3 className={Style.timeline__title}>Modding</h3>
-                    <p className={Style.timeline__blurb}>Tweaking mods for my local minecraft server in JAVA</p>
+                    <h3 className={Style.timeline__title}>First programming language experience ever</h3>
+                    <p className={Style.timeline__blurb}>Editing minecraft mods in Java</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2018</h2>
                 <div className={Style.timeline__item} data-aos="fade-right">
                     <h3 className={Style.timeline__title}>Started High School</h3>
-                    <p className={Style.timeline__blurb}>With focus on IT</p>
+                    <p className={Style.timeline__blurb}>Vocational High School, Klobouky u Brna</p>
                 </div>
                 <div className={Style.timeline__item} data-aos="fade-up">
-                    <h3 className={Style.timeline__title}>Created first little projects</h3>
-                    <p className={Style.timeline__blurb}>Simple Discord bot (disaster), little arduino projects in C++, introduced myself to front-end / back-end and linux</p>
+                    <h3 className={Style.timeline__title}>Introduction to my first languages</h3>
+                    <p className={Style.timeline__blurb}>C++, Usage on arduino</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2019</h2>
                 <div className={Style.timeline__item} data-aos="fade-right">
                     <h3 className={Style.timeline__title}>Created first HTML webpage</h3>
-                    <p className={Style.timeline__blurb}>without template</p>
+                    <p className={Style.timeline__blurb}>good ol times</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2021</h2>
                 <div className={Style.timeline__item} data-aos="fade-up">
                     <h3 className={Style.timeline__title}>Started learning React/Next</h3>
+                    <p className={Style.timeline__blurb}>thanks to my friends that recommended me learning this</p>
                 </div>
+                
+              
                 <div className={Style.timeline__item} data-aos="fade-right">
-                    <h3 className={Style.timeline__title}>Became freelancing</h3>
-                </div>
-                <div className={Style.timeline__item} data-aos="fade-up">
-                    <h3 className={Style.timeline__title}>Building webapp for my school</h3>
-                </div>
-                <div className={Style.timeline__item} data-aos="fade-right">
-                    <h3 className={Style.timeline__title}>Building this personal site</h3>
+                    <h3 className={Style.timeline__title}>Started building this personal site</h3>
+                    <p className={Style.timeline__blurb}>Which was delayed due to school</p>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>2022</h2>
+                 <div className={Style.timeline__item} data-aos="fade-up">
+                    <h3 className={Style.timeline__title}>First contract</h3>
+                     <p className={Style.timeline__blurb}>Making e-shop for my friend from elementary school</p>
+                </div>
                 <div className={Style.timeline__item} data-aos="fade-up">
-                    <h3 className={Style.timeline__title}>Learning my ass off</h3>
+                    <h3 className={Style.timeline__title}>Got my drivers licence</h3>
+                    <p className={Style.timeline__blurb}>Group b.</p>
+                </div>
+                <div className={Style.timeline__item} data-aos="fade-up">
+                    <h3 className={Style.timeline__title}>Graduated high school</h3>
+                    <p className={Style.timeline__blurb}>With high school diploma</p>
+                </div>
+                <div className={Style.timeline__item} data-aos="fade-right">
+                    <h3 className={Style.timeline__title}>Started looking for stable job</h3>
                 </div>
                 <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>NOW</h2>
             </div>
