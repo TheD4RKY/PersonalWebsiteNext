@@ -4,6 +4,7 @@
   width: 200px;
   height: 100%;
   padding-left: 50px;
+  bottom: 0px;
   position: fixed;
   z-index: 100;
   -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
