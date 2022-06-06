@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { useState } from "react";
 import styles from "/scss/mobilenav.module.css";
 import {IoIosList} from 'react-icons/io';
@@ -27,12 +28,12 @@ export default function Mobilenav(){
             <div className={active ? styles.menu : 'hidden' } >
                     
                     <ul className={styles.nav}>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about_me">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="/contact_me">Contact</a></li>
-                        <li style={{color: "white"}}><a href="#"><IoIosList /></a></li>   
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/about_me">About</Link></li>
+                        <li><Link href="#">Portfolio</Link></li>
+                        <li><Link href="#">Projects</Link></li>
+                        <li><Link href="/contact_me">Contact</Link></li>
+                        <li style={{color: "white"}}><Link href="#"><IoIosList /></Link></li>   
                     </ul>
                    
              

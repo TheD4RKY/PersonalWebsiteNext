@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import styles from '../styles/index.module.css'
 import style from '../scss/indexquerry.module.css'
@@ -11,7 +12,7 @@ export default function index() {
           <source src={'/videos/glitch1.mp4'} type="video/mp4" />
         </video>
         <div id={glitch.app}>
-            <a href="./about_me"><div className={glitch.glitch} data-text={'ENTER'} >ENTER</div></a>
+            <Link href="./about_me"><div className={glitch.glitch} data-text={'ENTER'} >ENTER</div></Link>
         </div>
      
     </>
