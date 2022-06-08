@@ -30,10 +30,9 @@ export default function Mobilenav(){
                     <ul className={styles.nav}>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/about_me">About</Link></li>
-                        <li><Link href="#">Portfolio</Link></li>
-                        <li><Link href="#">Projects</Link></li>
+                        <li><Link href="#">Work</Link></li>
+                        <li><Link href="#">Resources</Link></li>
                         <li><Link href="/contact_me">Contact</Link></li>
-                        <li style={{color: "white"}}><Link href="#"><IoIosList /></Link></li>   
                     </ul>
                    
              

@@ -19,7 +19,7 @@ export default function Nav({ }) {
         AOS.refresh();
     }, []);
     return (
-        <div style={{width:"100%"}}>
+        <div style={{width:"100%"}} className="min-h-full relative">
             
             <Navsocial />
             <Mobilenav />
@@ -32,7 +32,9 @@ export default function Nav({ }) {
             <Personalinfo />
             <Timeline />
             <Footer />
+            <div className="h-6"></div>
             <Copyright />
+            
 </div>
         )
 }
