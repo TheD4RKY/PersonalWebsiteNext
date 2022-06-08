@@ -31,7 +31,7 @@ export default function Mobilenav(){
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/about_me">About</Link></li>
                         <li><Link href="#">Work</Link></li>
-                        <li><Link href="#">Resources</Link></li>
+                        <li><Link href="#">CV</Link></li>
                         <li><Link href="/contact_me">Contact</Link></li>
                     </ul>
                    

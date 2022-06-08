@@ -1,6 +1,7 @@
-
+import emailjs from "emailjs-com";
+import React from "react";
 export default function ContactMeForm() {
-     async function sendEmail(e) {
+     /*async function sendEmail(e) {
         e.preventDefault();
         const form = {};
         Array.from(e.currentTarget.elements).forEach(field => {
@@ -13,14 +14,29 @@ export default function ContactMeForm() {
             body: JSON.stringify(form)
         });
         console.log(form);
-    }
+    }*/
+
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_wlwsdcv', 'template_qq40n21', e.target, 'xrIUVeK1TxF3ReULD')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            alert("email was sent succesfully");
+            e.target.reset();
+    };
+
     return(
 
             <div className="w-full md:max-w-full pt-4 xl:pr-20 md:pl-20 md:pr-20">
                 <div className="p-6 border border-gray-300 sm:rounded-md">
                     <form method="POST" onSubmit={sendEmail}>
                         <label className="block mb-6">
-                            <span className="text-gray-700">Your name</span>
+                            <span className="text-gray-700">Your full name</span>
                             <input
                                 type="text"
                                 name="name"
@@ -36,7 +52,8 @@ export default function ContactMeForm() {
             focus:ring-indigo-200
             focus:ring-opacity-50
           "
-                                placeholder="Joe Bloggs"
+                                placeholder="Dennis Kaluzik"
+                            required
                             />
                         </label>
                         <label className="block mb-6">
@@ -56,7 +73,7 @@ export default function ContactMeForm() {
             focus:ring-indigo-200
             focus:ring-opacity-50
           "
-                                placeholder="joe.bloggs@example.com"
+                                placeholder="name@example.com"
                                 required
                             />
                         </label>
@@ -78,7 +95,7 @@ export default function ContactMeForm() {
             focus:ring-opacity-50
           "
                                 rows={3}
-                                placeholder="Tell us what you're thinking about..."
+                                placeholder="Tell us your toughts and additional notes"
                             ></textarea>
                         </label>
                         <div className="mb-6">

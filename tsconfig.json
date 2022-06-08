@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/api/mail.js"  ],
+, "pages/api/mail.js", "pages/components/cv/pdfuploader.js"  ],
   "exclude": [
     "node_modules"
   ]

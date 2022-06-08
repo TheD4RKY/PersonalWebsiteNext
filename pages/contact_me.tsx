@@ -11,7 +11,7 @@ export default function contact() {
         <div className="block min-h-full relative h-max xl:flex xl:flex-col xl:h-screen">
         <Navbar />
         <Navsocial />
-        
+        <Mobilenav />
         <Heroheader/>
        
         <Fromcover />
