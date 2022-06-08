@@ -38,9 +38,12 @@ module.exports = {
       },
       scale: {
         '95': '0.95',
+        '200': '2',
+        '350': '3.5',
         
       },
       height: { 
+        '110': '26rem',
         '128': '32rem', 
         '138': '34rem',
         '256': '62rem',
@@ -53,7 +56,6 @@ module.exports = {
       },
       colors: {
         'fadedblue': '#40445c'
-
       }
     },
   },
