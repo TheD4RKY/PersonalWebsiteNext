@@ -55,9 +55,14 @@ return(
                     <p className={Style.timeline__blurb}>With high school diploma</p>
                 </div>
                 <div className={Style.timeline__item} data-aos="fade-right">
-                    <h3 className={Style.timeline__title}>Started looking for stable job</h3>
+                    <h3 className={Style.timeline__title}>Worked at Synapse/5</h3>
+                        <p className={Style.timeline__blurb}>From 13.7 to 27.9 as Fullstack Web Dev</p>
                 </div>
-                <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>NOW</h2>
+                    <div className={Style.timeline__item} data-aos="fade-right">
+                    <h3 className={Style.timeline__title}>Working at Bohemia Interactive</h3>
+                        <p className={Style.timeline__blurb}>From 3.10 to current as QA Tester</p>
+                </div>
+                <h2 className={Style["timeline__item"] + " " + Style["timeline__item--year"]}>THE FUTURE IS NOW</h2>
             </div>
         </div>
 
